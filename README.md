@@ -1,6 +1,6 @@
 # A Multi-View Graph Convolutional Network Framework Based on Adaptive Adjacency Matrix and Multi-Strategy Fusion Mechanism for Identifying Spatial Domains
 
-![Model](https://github.com/Fuyh0628/STMGAMF/blob/master/STMGAMF/Model.png)
+![Model](https://github.com/Fuyh0628/STMGAMF/blob/master/Model.png)
 
 ## Requirements
 
