@@ -118,7 +118,7 @@ class STMGAMF(nn.Module):
         emb, att = self.att(emb)
         emb1 = torch.tanh(self.c_f)*emb1 + torch.tanh(self.c_s)*emb2 + torch.tanh(self.c_com)*((com1 + com2)/2)
         if self.config.f_cat:
-            emb = self.MLP(emb1+emb)
+            emb = self.MLP((emb1 + emb) / 2)
         else:
             emb = self.MLP(emb1)
 
