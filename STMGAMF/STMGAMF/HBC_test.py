@@ -153,7 +153,6 @@ if __name__ == "__main__":
                 np.save(savepath + 'idx_max.npy', idx_max)
                 np.save(savepath + 'mean_max.npy', mean_max)
 
-            print(f"best_ari_with_epoch: {ari_res}, nmi_with_epoch: {nmi_res}")
             aris_list.append(ari_res)
             nmis_list.append(nmi_res)
 
