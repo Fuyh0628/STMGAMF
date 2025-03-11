@@ -146,9 +146,6 @@ if __name__ == "__main__":
                 mean_max = mean
                 emb_max = emb
 
-
-            print(f"epoch: {epoch}, ARI: {ari_res}, NMI: {nmi_res}, Best ARI: {ari_max}")
-
         title1 = f'{dataset}: ARI={ari_max:.2f}, NMI={nmi_max:.2f}'
         title2 = f'{dataset}: Homogeneity={Homogeneity:.2f}, Completeness={Completeness:.2f}, V-measure={V_measure:.2f}'
 
